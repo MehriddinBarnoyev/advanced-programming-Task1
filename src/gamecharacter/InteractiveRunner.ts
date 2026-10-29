@@ -3,12 +3,6 @@ import { stdin as input, stdout as output } from "node:process";
 import { GameCharacter } from "./GameCharacter.ts";
 import { CharacterFactory } from "./CharacterFactory.ts";
 
-/**
- * Interaktiv rejim: foydalanuvchi bilan muloqot qilib, hozirgi prototipni
- * ko'rsatadi va undan qanday askar kerakligini so'raydi — nusxa shu javoblar
- * asosida moslashtiriladi.
- */
-
 const rl = createInterface({ input, output });
 
 async function ask(question: string): Promise<string> {

@@ -28,7 +28,7 @@ export class DocumentRunner {
     console.log("   nusxa #1: " + copy1.toString());
     console.log("   nusxa #2: " + copy2.toString());
 
-    // 4) Nusxalarni o'zgartiramiz — nom, matn va teglar.
+
     copy1.setId(2);
     copy1.setTitle("Shartnoma — qoralama");
     copy1.setContent("Bu birinchi nusxaning yangilangan matni.");

@@ -1,11 +1,5 @@
 import { Document } from "./Document.ts";
 
-/**
- * Prototip saqlovchi fabrika — pattern'da "Prototype Registry / Client" roli.
- *
- * Fabrika yangi hujjatni qanday qurishni BILMAYDI, faqat bitta prototip
- * saqlaydi va so'ralganda undan nusxa ko'chirib beradi.
- */
 export class DocumentFactory {
   #prototype: Document;
 

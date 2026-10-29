@@ -51,7 +51,7 @@ export class GameCharacter implements Copyable<GameCharacter> {
     this.#weapon = weapon;
   }
 
-  /** Java'dagi toString() ning analogi. */
+
   toString(): string {
     return `GameCharacter{id=${this.#id}, name='${this.#name}', level=${this.#level}, weapon='${this.#weapon}'}`;
   }

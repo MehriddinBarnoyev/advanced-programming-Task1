@@ -1,11 +1,4 @@
 import type { Copyable } from "../shared/Copyable.ts";
-
-/**
- * Hujjat — Prototype pattern'da "ConcretePrototype" roli.
- *
- * clone() copy constructor orqali amalga oshiriladi: ikkinchi constructor
- * boshqa Document obyektini oladi va uning barcha maydonlarini ko'chiradi.
- */
 export class Document implements Copyable<Document> {
   #id: number;
   #title: string;

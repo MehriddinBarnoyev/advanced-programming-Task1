@@ -1,12 +1,3 @@
-// ============================================================
-// Prototype pattern — sof JavaScript (bitta fayl) varianti.
-// TypeScript kerak bo'lmasa shu faylni ishlatsangiz bo'ladi:
-//   node src/prototype.js
-// JS'da interfeys yo'q, shuning uchun "shartnoma" izoh bilan
-// va clone() metodi mavjudligini tekshirish bilan ifodalanadi.
-// ============================================================
-
-/** Copyable "interfeysi": clone() metodi bor-yo'qligini tekshiradi. */
 function isCopyable(obj) {
   return obj != null && typeof obj.clone === "function";
 }
