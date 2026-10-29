@@ -1,0 +1,11 @@
+{
+  "name": "prototype-pattern",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/gamecharacter/GameRunner.ts",
+    "start:js": "node src/gamecharacter/prototype.js",
+    "start:interactive": "node src/gamecharacter/InteractiveRunner.ts",
+    "start:document": "node src/document/DocumentRunner.ts"
+  }
+}
